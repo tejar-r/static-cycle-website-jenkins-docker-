@@ -2,4 +2,4 @@ FROM httpd
 MAINTAINER name Teja
 LABEL this is my first image
 Expose 80
-COPY /var/lib/jenkins/workspace/myjob/index.html  /usr/local/apache2/conf/httpd.conf
+COPY ./index.html  /usr/local/apache2/conf/httpd.conf
